@@ -1,4 +1,5 @@
-Aim : To study and implement C++ Program Structure (Data Types)
+Aim :
+To study and implement C++ Program Structure (Data Types)
 Software Required:
 Visual Studio
 
