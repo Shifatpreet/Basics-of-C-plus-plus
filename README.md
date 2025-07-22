@@ -1,25 +1,26 @@
-Aim :
-To study and implement C++ Program Structure (Data Types)
+Aim: Hello World and Calculator program
 Software Required:
 Visual Studio
 
 Theory:
-Data types specify the type of data that a variable can store. Whenever a variable is defined in C++, the compiler allocates some memory for that variable based on the data type with which it is declared as every data type requires a different amount of memory. C++ supports a wide variety of data types, and the programmer can select the data type appropriate to the needs of the application.
+In C++, input and output are performed in the form of a sequence of bytes or more commonly known as streams.
 
-Character Data Type (char) The character data type is used to store a single character. The keyword used to define a character is char. Its size is 1 byte, and it stores characters enclosed in single quotes (' '). It can generally store upto 256 characters according to their ASCII codes.
+Input Stream: If the direction of flow of bytes is from the device (for example, Keyboard) to the main memory then this process is called input.
 
-Integer Data Type (int) Integer data type denotes that the given variable can store the integer numbers. The keyword used to define integers is int. Its size is 4-bytes (for 64-bit) systems and can store numbers for binary, octal, decimal and hexadecimal base systems in the range from -2,147,483,648 to 2,147,483,647.
+Output Stream: If the direction of flow of bytes is opposite, i.e. from main memory to device (display screen) then this process is called output.
 
-Boolean Data Type (bool) The boolean data type is used to store logical values: true(1) or false(0). The keyword used to define a boolean variable is bool. Its size is 1 byte.
+All of these streams are defined inside the header file which contains all the standard input and output tools of C++. The two instances cout and cin of iostream class are used very often for printing outputs and taking inputs respectively. These two are the most basic methods of taking input and printing output in C++.
 
-Floating Point Data Type (float) Floating-point data type is used to store numbers with decimal points. The keyword used to define floating-point numbers is float. Its size is 4 bytes (on 64-bit systems) and can store values in the range from 1.2e-38 to 3.4e+38.
+Standard Output Stream - cout: The C++ cout is the instance of the iostream class used to produce output on the standard output device which is usually the display screen. The data needed to be displayed on the screen is inserted in the standard output stream (cout) using the insertion operator(<<).
 
-Double Data Type (double) The double data type is used to store decimal numbers with higher precision. The keyword used to define double-precision floating-point numbers is double. Its size is 8 bytes (on 64-bit systems) and can store the values in the range from 1.7e-308 to 1.7e+308
+Standard Input Stream - cin: The C++ cin statement is the instance of the class istream and is used to read input from the standard input device which is usually a keyboard. The extraction operator (>>) is used along with the object cin for extracting the data from the input stream and store it in some variable in the program.
 
 Implementation:
-In this code i have asked the user for input for various datatypes and i have printed out the type and the size of the datatype.
+The basics i.e input and output functions and basic arithmatic operators (more is discussed in the next part) of C++ are seen through the following programs,
 
-To run this code, Copy the code in Visual Studio and run the program.
-
+Hello World(Printing Hello World)
+Making a simple calculator
+Conclusion:
+The basics of C++ was seen through the programs.
 Conclusion:
 In this practical i discovered about various types of datatypes available in c++.  
